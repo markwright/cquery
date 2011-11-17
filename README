@@ -1,0 +1,6 @@
+Print dependent packages and module information from cabal file.
+
+Example: to print the package dependencies prefixed by '+', which is useful
+when creating hoogle binary databases:
+
+cquery depends --prefix='+' my.cabal
